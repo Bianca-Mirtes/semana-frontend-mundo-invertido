@@ -1,4 +1,4 @@
-import { subscribeClub } from "./Firebase/duegons-&-dragons.js";
+import { subscribeClub } from './Firebase/duegons-&-dragons.js'
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
@@ -16,10 +16,4 @@ btnSubscribe.addEventListener('click', async () =>{
     const subscribeClubId = await subscribeClub(subscription)
     alert("Inscrição feita com sucesso: " + subscribeClubId)
 
-    name: txtName.value = ""
-    email: txtEmail.value = ""
-    level: txtLevel.value = ""
-    character: txtCharacter.value = " "
-
 })
-
