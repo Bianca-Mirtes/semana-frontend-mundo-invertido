@@ -1,4 +1,4 @@
-import { subscribeClub } from './Firebase/duegons-&-dragons.js'
+import { subscribeClub } from './firebase/duegons-&-dragons.js'
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
